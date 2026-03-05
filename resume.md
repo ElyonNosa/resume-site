@@ -25,4 +25,5 @@ University of Manitoba
 - Built a peer-to-peer file sharing application using Python sockets
 
 ## Contact
-Email: example@email.com
+
+Email: nosaaife@myumanitoba.ca
