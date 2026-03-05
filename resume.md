@@ -1,3 +1,10 @@
+---
+layout: default
+title: Resume
+---
+
+[← Back to Home](index.html)
+
 # Elyon Nosa-Aifesehi
 
 ## Education
@@ -27,3 +34,4 @@ University of Manitoba
 ## Contact
 
 Email: nosaaife@myumanitoba.ca
+
