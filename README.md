@@ -7,11 +7,11 @@ using Markdown, Git, a static site generator, and a code hosting
 platform. The goal is to demonstrate how modern technical documentation
 tools can be used to publish simple and maintainable content on the web.
 
-This guide is written for Marvin McLaren, who has basic familiarity with
+This guide is written for anyone who has basic familiarity with
 Markdown and simple command-line operations but has not previously
 worked with Git, static site generators, or online code hosting
 platforms (also known as forges). By following these instructions,
-Marvin should be able to create a repository, format a resume using
+you should be able to create a repository, format a resume using
 Markdown, generate a static website, and publish it online.
 
 The approach used here reflects several principles described in *Modern
@@ -217,7 +217,8 @@ Author\
 Elyon Nosa-Aifesehi
 
 Peer Review Contributors\
-(Add classmates who participated in the peer review session.)
+Michael Yan
+Liam McCausland
 
 Static Site Generator\
 Jekyll
