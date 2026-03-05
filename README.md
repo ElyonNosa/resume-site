@@ -83,7 +83,7 @@ Write your resume using Markdown formatting.
 
 Example structure:
 
-    # Your Name
+    # Elyon Nosa-Aifesehi
 
     ## Education
     Bachelor of Computer Science  
