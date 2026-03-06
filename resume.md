@@ -26,6 +26,12 @@ University of Manitoba
 - Used R for data analysis
 - Assisted with environmental research
 
+### Shift Lead
+Kawaii Crepe
+
+- Create daily tasks for the staff
+- Resolve any customer issues that arise
+
 ## Projects
 
 ### P2P File Sharing System
@@ -34,4 +40,5 @@ University of Manitoba
 ## Contact
 
 Email: nosaaife@myumanitoba.ca
+
 
