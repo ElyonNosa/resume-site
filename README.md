@@ -232,8 +232,8 @@ Liam McCausland
 Static Site Generator:  
 Jekyll
 
-Grammar Check:
+Grammar Check:  
 ChatGPT
 
-Hosting Platform\
+Hosting Platform:  
 GitHub Pages
