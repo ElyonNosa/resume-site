@@ -1,24 +1,24 @@
-# Hosting a Resume Using Markdown, Git, and a Static Site Generator
+# Hosting a Resume Site Using Markdown, Git, and a Static Site Generator
 
 ## Purpose
 
-This README explains how to create and host a resume as a static website
-using Markdown, Git, a static site generator, and a code hosting
-platform. The goal is to demonstrate how modern technical documentation
+This README explains how to create and host a resume as a static website  
+using Markdown, Git, a static site generator, and a code hosting  
+platform. The goal is to demonstrate how modern technical documentation  
 tools can be used to publish simple and maintainable content on the web.
 
-This guide is written for anyone who has basic familiarity with
-Markdown and simple command-line operations but has not previously
-worked with Git, static site generators, or online code hosting
-platforms (also known as forges). By following these instructions,
-you should be able to create a repository, format a resume using
+This guide is written for anyone who has basic familiarity with  
+Markdown and simple command-line operations but has not previously  
+worked with Git, static site generators, or online code hosting  
+platforms (also known as forges). By following these instructions,  
+you should be able to create a repository, format a resume using  
 Markdown, generate a static website, and publish it online.
 
-The approach used here reflects several principles described in *Modern
-Technical Writing* by Andrew Etter. Etter emphasizes writing
-documentation in lightweight formats, storing documentation in version
-control systems, and publishing documentation using automated tools.
-These practices improve maintainability, accessibility, and
+The approach used here reflects several principles described in *Modern  
+Technical Writing* by Andrew Etter. Etter emphasizes writing  
+documentation in lightweight formats, storing documentation in version  
+control systems, and publishing documentation using automated tools.  
+These practices improve maintainability, accessibility, and  
 collaboration.
 
 ------------------------------------------------------------------------
@@ -34,10 +34,9 @@ Before starting, make sure you have the following:
 -   A text editor capable of editing Markdown files
 -   An internet connection
 
-These prerequisites follow Etter's recommendation to use simple and
-widely supported tools. Using plain text formats such as Markdown
-ensures documentation can be edited easily and remain portable across
-systems.
+These prerequisites follow Etter's recommendation to use simple and  
+widely supported tools. Using plain text formats such as Markdown  
+ensures documentation can be edited easily and remain portable across systems.
 
 ------------------------------------------------------------------------
 
@@ -47,9 +46,9 @@ systems.
 
 Download and install Git from the official Git website.
 
-Git is a distributed version control system that tracks changes to files
-and allows collaboration. Etter recommends storing documentation in
-version control systems because it makes documentation easier to
+Git is a distributed version control system that tracks changes to files  
+and allows collaboration. Etter recommends storing documentation in  
+version control systems because it makes documentation easier to  
 maintain and update.
 
 ------------------------------------------------------------------------
@@ -58,9 +57,8 @@ maintain and update.
 
 Log in to your GitHub account and create a new repository.
 
-A repository stores your project files and their revision history.
-Hosting documentation in a repository allows it to be shared and updated
-efficiently.
+A repository stores your project files and their revision history.  
+Hosting documentation in a repository allows it to be shared and updated efficiently.
 
 ------------------------------------------------------------------------
 
@@ -68,9 +66,10 @@ efficiently.
 
 Open your terminal and run:
 
-    git clone https://github.com/yourusername/resume-site.git
+`git clone https://github.com/yourusername/resume-site.git`
 
-Cloning downloads the repository from GitHub to your local machine so
+Replacing "yourusername" with your Git username  
+Cloning downloads the repository from GitHub to your local machine so  
 you can edit the files locally.
 
 ------------------------------------------------------------------------
@@ -83,23 +82,25 @@ Write your resume using Markdown formatting.
 
 Example structure:
 
-    # Elyon Nosa-Aifesehi
+```
+# Elyon Nosa-Aifesehi
 
-    ## Education
-    Bachelor of Computer Science  
-    University of Manitoba
+## Education
+Bachelor of Computer Science  
+University of Manitoba
 
-    ## Skills
-    - Python
-    - Java
-    - Git
-    - JavaScript
+## Skills
+- Python
+- Java
+- Git
+- JavaScript
 
-    ## Experience
-    Research Assistant – University of Manitoba
+## Experience
+Research Assistant – University of Manitoba
+```
 
-Markdown is a lightweight markup language. Etter recommends using
-lightweight markup languages because they allow writers to focus on
+Markdown is a lightweight markup language. Etter recommends using  
+lightweight markup languages because they allow writers to focus on  
 content rather than complex formatting.
 
 ------------------------------------------------------------------------
@@ -108,8 +109,8 @@ content rather than complex formatting.
 
 Install a static site generator such as Jekyll.
 
-Static site generators convert Markdown files into HTML automatically.
-This allows documentation to be written in simple text while still
+Static site generators convert Markdown files into HTML automatically.  
+This allows documentation to be written in simple text while still  
 producing a professional website.
 
 ------------------------------------------------------------------------
@@ -130,12 +131,12 @@ presentation.
 
 Run the build command:
 
-    jekyll build
+`jekyll build`
 
-This command converts Markdown files into HTML pages that can be viewed
+This command converts Markdown files into HTML pages that can be viewed  
 in a web browser.
 
-Automation reduces manual work and ensures consistency when publishing
+Automation reduces manual work and ensures consistency when publishing  
 documentation.
 
 ------------------------------------------------------------------------
@@ -144,11 +145,11 @@ documentation.
 
 Run the following commands:
 
-    git add .
-    git commit -m "Add resume and site files"
+`git add .`  
+`git commit -m "Add resume and site files"`
 
-Committing creates a snapshot of your project files. Version control
-makes it possible to track changes and revert to earlier versions if
+Committing creates a snapshot of your project files. Version control  
+makes it possible to track changes and revert to earlier versions if  
 necessary.
 
 ------------------------------------------------------------------------
@@ -157,9 +158,9 @@ necessary.
 
 Upload your changes:
 
-    git push origin main
+`git push origin main`
 
-Pushing sends your local changes to the online repository so they are
+Pushing sends your local changes to the online repository so they are  
 stored remotely.
 
 Hosting documentation online improves accessibility and collaboration.
@@ -170,26 +171,35 @@ Hosting documentation online improves accessibility and collaboration.
 
 Enable GitHub Pages in the repository settings.
 
-GitHub Pages automatically publishes the static website and provides a
+Go to:
+
+`Settings > Pages`
+
+And choose:
+
+`Branch: Main`  
+`Folder: Root`
+
+GitHub Pages automatically publishes the static website and provides a  
 public URL where your resume can be viewed.
 
-This automated publishing process follows Etter's recommendation to
+This automated publishing process follows Etter's recommendation to  
 simplify documentation workflows.
 
 ------------------------------------------------------------------------
 
 ## Further Resources
 
-Markdown tutorial\
+Markdown tutorial  
 https://www.markdownguide.org
 
-Git documentation\
+Git documentation  
 https://git-scm.com/docs
 
-GitHub documentation\
+GitHub documentation  
 https://docs.github.com
 
-Jekyll documentation\
+Jekyll documentation  
 https://jekyllrb.com/docs
 
 ------------------------------------------------------------------------
@@ -198,30 +208,32 @@ https://jekyllrb.com/docs
 
 ### Why use Markdown instead of HTML?
 
-Markdown is simpler and easier to read than raw HTML. The syntax is
-minimal and allows writers to focus on the content itself. According to
-Etter, lightweight markup languages improve documentation
-maintainability.
+Markdown is simpler and easier to read than raw HTML. The syntax is  
+minimal and allows writers to focus on the content itself. According to  
+Etter, lightweight markup languages improve documentation maintainability.
 
-### I changed my resume but the website did not update. Why?
+### I changed my resume, but the website did not update. Why?
 
-Static websites must be rebuilt after changes are made. After modifying
-your Markdown file, you must commit the changes and push them to the
+Static websites must be rebuilt after changes are made. After modifying  
+your Markdown file, you must commit the changes and push them to the  
 repository so the updated version can be published.
 
 ------------------------------------------------------------------------
 
 ## Credits
 
-Author\
+Author:  
 Elyon Nosa-Aifesehi
 
-Peer Review Contributors\
-Michael Yan
+Peer Review Contributors:  
+Michael Yan  
 Liam McCausland
 
-Static Site Generator\
+Static Site Generator:  
 Jekyll
+
+Grammar Check:
+ChatGPT
 
 Hosting Platform\
 GitHub Pages
